@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2691CE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="eightBtn" layoutX="248.0" layoutY="110.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="8" textFill="WHITE" AnchorPane.bottomAnchor="243.0" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="300.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="sevenBTN" layoutX="188.0" layoutY="110.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="7" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="nineBtn" layoutX="308.0" layoutY="110.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="9" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="fourBtn" layoutX="188.0" layoutY="163.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="4" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="fiveBtn" layoutX="248.0" layoutY="163.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="5" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="sixBtn" layoutX="308.0" layoutY="163.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="6" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="oneBtn" layoutX="188.0" layoutY="219.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="1" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="twoBtn" layoutX="248.0" layoutY="219.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="2" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="threeBtn" layoutX="308.0" layoutY="219.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="3" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="zeroBtn" layoutX="248.0" layoutY="278.0" mnemonicParsing="false" onAction="#numberOprimido" prefHeight="47.0" prefWidth="52.0" style="-fx-background-color: #26CEB2;" text="0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="calculateBtn" layoutX="431.0" layoutY="278.0" mnemonicParsing="false" onAction="#operationOprimido" prefHeight="47.0" prefWidth="133.0" style="-fx-background-color: orange;" text="Calcular" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="sumBtn" layoutX="431.0" layoutY="163.0" mnemonicParsing="false" onAction="#operationOprimido" prefHeight="47.0" prefWidth="133.0" style="-fx-background-color: #CE2626;" text="+" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="historyTA" layoutX="22.0" layoutY="32.0" prefHeight="356.0" prefWidth="133.0" style="-fx-background-color: black;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <TextField alignment="TOP_CENTER" layoutX="188.0" layoutY="31.0" prefHeight="40.0" prefWidth="383.0" promptText="Operación">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="resultadoTF" alignment="TOP_CENTER" layoutX="365.0" layoutY="341.0" prefHeight="47.0" prefWidth="213.0" promptText="Resultado">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="54.0" layoutY="14.0" text="Historial">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="sumBtn1" layoutX="431.0" layoutY="219.0" mnemonicParsing="false" onAction="#operationOprimido" prefHeight="47.0" prefWidth="133.0" style="-fx-background-color: #CE2626;" text="-" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="sumBtn11" layoutX="431.0" layoutY="110.0" mnemonicParsing="false" onAction="#operationOprimido" prefHeight="47.0" prefWidth="133.0" style="-fx-background-color: #CE2626;" text="*" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
